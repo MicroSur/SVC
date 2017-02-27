@@ -1,0 +1,18 @@
+Измененные файлы. Кол-во дней: 1
+Сегодня: 19.06.2007
+
+18.06.2007 13:28:16 F:\SVC_Home\clsAVIInfo.cls
+18.06.2007 20:36:32 F:\SVC_Home\Form1.frm
+18.06.2007 20:36:32 F:\SVC_Home\form1.frx
+18.06.2007 18:27:52 F:\SVC_Home\FrmFilter.frm
+18.06.2007 18:27:52 F:\SVC_Home\FrmFilter.frx
+18.06.2007 20:45:04 F:\SVC_Home\FrmOptions.frm
+18.06.2007 20:45:04 F:\SVC_Home\FrmOptions.frx
+18.06.2007 13:28:16 F:\SVC_Home\ModMMInfo.bas
+19.06.2007 11:43:52 F:\SVC_Home\new.txt
+18.06.2007 20:45:04 F:\SVC_Home\Project1.vbp
+18.06.2007 22:40:08 F:\SVC_Home\Project1.vbw
+18.06.2007 20:36:24 F:\SVC_Home\rus.lng
+18.06.2007 22:40:06 F:\SVC_Home\svcdebug.log
+18.06.2007 20:45:04 F:\SVC_Home\Xpb.ctl
+18.06.2007 20:45:04 F:\SVC_Home\Xpb.ctx

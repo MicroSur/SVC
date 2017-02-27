@@ -1,0 +1,61 @@
+----попытка дать выбрать показываемые пол€ в таблице
+    If iFn <> glob Then                                             ' онкретна€ база
+
+
+        'LV
+''ѕќ Listview
+''Public Const lvHeaderIndexPole As Integer = 25 ' 19 'номер пол€ индекса заголовка lv (lvIndexPole + 1название)
+''Public lvHeaderIndexPole As Integer = lvIndexPole+1 заменено
+''Public Const lvIndexPole As Integer = 24 ' 18 'номер пол€ индекса  - кол-во до аннотации в базе
+'Public lvIndexPole As Integer ' = 24 ' 18 'номер пол€ индекса  - кол-во до аннотации в базе
+'Public arrLVColl() As Boolean 'таблица от dbInd... нужные пол€ дл€ юзера
+
+        'ѕрочитать из ини нужные юзеру пол€ базы TableFields = (dbIndTitle, dbIndLabel... 1,2...)
+ temp = VBGetPrivateProfileString("LIST", "TableFields", iniFileName)
+ Dim arrTmp() As String
+
+ arrTmp = Split(temp, ",")
+ lvIndexPole = UBound(arrTmp)  'пока кол-во прочитанных
+                 'завести таблицу arrLVColl(dbInd...)=true/false - нужно.ненужно
+ ReDim arrLVColl(1 To dbAnnotationInd)
+ For i = 1 To dbAnnotationInd
+ For j = 0 To lvIndexPole 'UBound(arrTmp)
+ If i = arrTmp(j) Then
+    arrLVColl(i) = True
+    Exit For
+ End If
+ Next j
+ Next i
+ 
+ If arrLVColl(1) <> True Then
+    'если не было названи€, ввести его
+    arrLVColl(1) = True
+    lvIndexPole = lvIndexPole + 1
+    End If
+    
+        'установить lvIndexPole по кол-ву прочитанных + 1 (все 24)
+lvIndexPole = lvIndexPole + 1
+        
+lvIndexPole = 24 '24
+
+        'ќчистка/установка хедеров списка фильмов
+        'ReloadLVHeaders lvIndexPole + 1
+        
+'ќчистка хедеров списка
+With ListView
+    For i = .ColumnHeaders.Count To 1 Step -1: .ColumnHeaders.Remove i: Next i
+    'создать ’едеры списка
+    For i = 1 To dbAnnotationInd
+    .ColumnHeaders.Add Key:=i & Kavs 'ключ колонки = номер пол€ базы
+    'If arrLVColl(i) Then .ColumnHeaders.Add Key:=i & Kavs 'ключ колонки = номер пол€ базы
+    Next
+    'плюс поле индекса
+    .ColumnHeaders.Add Key:="Ind"
+End With
+
+'применить прочитанный в глобале €зык
+'после создани€ колонок
+LangChange 'лишний раз не перечитываетс€, но есть проверки существовани€ файлов
+'Opt_SortOnStart провер€ть
+
+----------------------------

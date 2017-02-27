@@ -1,0 +1,60 @@
+22:24:31> 27.02.2017 SVC ver: 5.4.5
+22:24:31> WinNT = True (Windows XP Professional, ver. 5.1.2600 SP3)
+22:24:31> Separator - (,)
+22:24:31> ACP: 1251
+22:24:31> LCID: 1049
+22:24:31> Open ADB
+22:24:31> Open Acter
+22:24:31> global.ini
+22:24:31> локализация C:\!VBSUR\VideoCatalog\Status\rus.lng
+22:24:31> MenuItem: 1/0
+22:24:31> Заполнение фильмов
+22:24:31> Загрузка C:\SVC.Base\новые фильмы.mdb
+22:24:31> Open DB (RO=False ROU=False)
+22:24:31> Open table
+22:24:31> новые фильмы.mdb.ini
+22:24:31>   FreeDVDFilters=True
+22:24:31>   UseProxy=1
+22:24:31>   DS_AVI=False
+22:24:31>   GetVolumeInfo=True
+22:24:31>   GetMediaType=True
+22:24:31>   InetGetPicUseTempFile=False
+22:24:32> Список фильмов
+22:25:43> MenuItem: 3/0
+22:25:43> Новый фильм
+22:25:43> ClVid_proc...
+22:25:45> OpenNew...
+22:25:56> NewMovie C:\!Downloads\Video\Bad.Santa.2.2016.WEB-DLRip.By_Flash.avi
+22:25:56> Open FileExt=avi
+22:25:56> AVI_Frames=132720
+22:25:56> AVI_FPS=25
+22:25:56> AVI_fSize=1532694
+22:25:56> VFW ok.
+22:26:08> AScrShotsPos Avi: 12241 78438 103770
+22:26:12> AScrShotsPos Avi: 25548 64735 89791
+22:26:14> AScrShotsPos Avi: 34922 52123 114324
+22:26:16> AScrShotsPos Avi: 24967 72177 86445
+22:26:18> AScrShotsPos Avi: 3901 53067 109930
+22:27:24> crh_ret=42
+22:28:40> Заполнение актеров
+22:28:46> MenuItem: 5/0
+22:28:46> Люди кино
+22:29:04> MenuItem: 4/0
+22:29:04> Обложка
+22:29:46> MenuItem: 2/0
+22:29:46> Edit_Key=382
+22:30:02> Загрузка C:\SVC.Base\FirstRun.mdb
+22:30:02> Open DB (RO=False ROU=False)
+22:30:02> Open table
+22:30:02> FirstRun.mdb.ini
+22:30:02>   FreeDVDFilters=True
+22:30:02>   UseProxy=1
+22:30:02>   DS_AVI=False
+22:30:02>   GetVolumeInfo=True
+22:30:02>   GetMediaType=True
+22:30:02>   InetGetPicUseTempFile=False
+22:30:34> MenuItem: 7/0
+22:30:34> Статистика
+22:30:56> MenuItem: 6/0
+22:32:37> MenuItem: 5/0
+22:32:37> Люди кино

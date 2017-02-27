@@ -1,0 +1,390 @@
+[Root]
+Most Recent Package=Dep File 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VB.SUR\VideoCatalog\Status\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+Text=No
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+d:\vb.sur\videocatalog\status\eng.lng=
+d:\vb.sur\videocatalog\status\rus.lng=
+d:\vb.sur\videocatalog\status\svc.ini=
+d:\vb.sur\videocatalog\status\svc.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\VB.SUR\VideoCatalog\Status\svc.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\VB.SUR\VideoCatalog\Status\VertMenu.ocx=Yes
+D:\VB.SUR\VideoCatalog\Status\SSubTmr6.dll=Yes
+D:\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VB.SUR\VideoCatalog\Status\eng.lng=Yes
+D:\VB.SUR\VideoCatalog\Status\rus.lng=Yes
+D:\VB.SUR\VideoCatalog\Status\svc.ini=Yes
+D:\VB.SUR\VideoCatalog\Status\svc.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\VB.SUR\VideoCatalog\Status\svc.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+D:\VB.SUR\VideoCatalog\Status\VertMenu.ocx=$(AppPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+D:\VB.SUR\VideoCatalog\Status\SSubTmr6.dll=$(AppPath)
+D:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VB.SUR\VideoCatalog\Status\eng.lng=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\rus.lng=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\svc.ini=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\svc.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\VB.SUR\VideoCatalog\Status\svc.exe=No
+D:\VB.SUR\VideoCatalog\Status\eng.lng=No
+D:\VB.SUR\VideoCatalog\Status\rus.lng=No
+D:\VB.SUR\VideoCatalog\Status\svc.ini=No
+D:\VB.SUR\VideoCatalog\Status\svc.mdb=No
+D:\VB.SUR\VideoCatalog\Status\VertMenu.ocx=No
+C:\WINNT\system32\MSCOMCTL.OCX=No
+D:\VB.SUR\VideoCatalog\Status\SSubTmr6.dll=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SurVideoCatalog
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\VB.SUR\VideoCatalog\Status\Package
+ProjectFolder=D:\VB.SUR\VideoCatalog\Status
+ServerSideCab=
+File1=D:\VB.SUR\VideoCatalog\Status\Package\setup.exe
+File2=D:\VB.SUR\VideoCatalog\Status\Package\Setup.Lst
+File3=D:\VB.SUR\VideoCatalog\Status\Package\svc.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SurVideoCatalog
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SurVideoCatalog]
+Icon1=svc.exe
+Title1=SurVideoCatalog
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|SVC97|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VB.SUR\VideoCatalog\Status\Package
+
+[Package|SVC97|Configure DAO ISAMs]
+Applicable=No
+Text=No
+Jet 2.x=Yes
+
+[Package|SVC97|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SVC97|Files Found]
+
+[Package|SVC97|Files Released]
+
+[Package|SVC97|Missing Dependency Information]
+
+[Package|SVC97|Out-of-Date Dependency Information]
+
+[Package|SVC97|Files Added]
+d:\vb.sur\videocatalog\status\eng.lng=
+d:\vb.sur\videocatalog\status\rus.lng=
+d:\vb.sur\videocatalog\status\svc.ini=
+d:\vb.sur\videocatalog\status\svc.mdb=
+d:\vb.sur\videocatalog\status\svc97.mdb=
+d:\vb.sur\videocatalog\status\vb5db.dll=
+D:\VB.SUR\VideoCatalog\Status\readme.rus=
+
+[Package|SVC97|Files Removed]
+d:\vb.sur\videocatalog\status\svc.mdb=
+
+[Package|SVC97|Files In Project]
+D:\VB.SUR\VideoCatalog\Status\svc.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\VB.SUR\VideoCatalog\Status\VertMenu.ocx=Yes
+D:\VB.SUR\VideoCatalog\Status\SSubTmr6.dll=Yes
+D:\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VB.SUR\VideoCatalog\Status\eng.lng=Yes
+D:\VB.SUR\VideoCatalog\Status\rus.lng=Yes
+D:\VB.SUR\VideoCatalog\Status\svc.ini=Yes
+D:\VB.SUR\VideoCatalog\Status\svc.mdb=No
+D:\VB.SUR\VideoCatalog\Status\svc97.mdb=Yes
+D:\VB.SUR\VideoCatalog\Status\VB5DB.DLL=Yes
+D:\VB.SUR\VideoCatalog\Status\readme.rus=Yes
+
+[Package|SVC97|Configure Registry Files]
+Applicable=No
+
+[Package|SVC97|Configure Remote Servers]
+Applicable=No
+
+[Package|SVC97|Install Locations]
+D:\VB.SUR\VideoCatalog\Status\svc.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+D:\VB.SUR\VideoCatalog\Status\VertMenu.ocx=$(AppPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+D:\VB.SUR\VideoCatalog\Status\SSubTmr6.dll=$(AppPath)
+D:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VB.SUR\VideoCatalog\Status\eng.lng=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\rus.lng=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\svc.ini=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\svc.mdb=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\svc97.mdb=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\VB5DB.DLL=$(AppPath)
+D:\VB.SUR\VideoCatalog\Status\readme.rus=$(AppPath)
+
+[Package|SVC97|Configure Shared Files]
+Applicable=Yes
+D:\VB.SUR\VideoCatalog\Status\svc.exe=No
+D:\VB.SUR\VideoCatalog\Status\eng.lng=No
+D:\VB.SUR\VideoCatalog\Status\rus.lng=No
+D:\VB.SUR\VideoCatalog\Status\svc.ini=No
+D:\VB.SUR\VideoCatalog\Status\svc.mdb=No
+D:\VB.SUR\VideoCatalog\Status\VertMenu.ocx=No
+C:\WINNT\system32\MSCOMCTL.OCX=No
+D:\VB.SUR\VideoCatalog\Status\SSubTmr6.dll=No
+D:\VB.SUR\VideoCatalog\Status\svc97.mdb=No
+D:\VB.SUR\VideoCatalog\Status\VB5DB.DLL=No
+D:\VB.SUR\VideoCatalog\Status\readme.rus=No
+
+[Package|SVC97|Distribution]
+Type=single
+Size=
+Title=SurVideoCatalog
+
+[Package|SVC97|Package]
+PackageFolder=D:\VB.SUR\VideoCatalog\Status\Package
+ProjectFolder=D:\VB.SUR\VideoCatalog\Status
+ServerSideCab=
+File1=D:\VB.SUR\VideoCatalog\Status\Package\setup.exe
+File2=D:\VB.SUR\VideoCatalog\Status\Package\Setup.Lst
+File3=D:\VB.SUR\VideoCatalog\Status\Package\svc.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|SVC97|IconGroups]
+Group0=SurVideoCatalog
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SVC97|SurVideoCatalog]
+Icon1=svc.exe
+Title1=SurVideoCatalog
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\!VB.SUR\VideoCatalog\Status\!Pakage
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\STRM.tlb=
+C:\Program Files\Sur Video Catalog\wiaaut.dll=
+C:\WINDOWS\system32\quartz.dll=
+C:\WINDOWS\system32\KTLDShw2.tlb=
+C:\WINDOWS\system32\VBPrnDlg.dll=
+C:\WINDOWS\system32\SSubTmr6.dll=
+C:\WINDOWS\system32\msimg32.dll=
+C:\WINDOWS\system32\sensapi.dll=
+C:\WINDOWS\system32\wininet.dll=
+C:\WINDOWS\system32\MediaInfo.dll=
+C:\WINDOWS\system32\ijl11.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+D:\!VB.SUR\VideoCatalog\Status\svc.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\ijl11.dll=Yes
+C:\WINDOWS\system32\MediaInfo.dll=Yes
+C:\WINDOWS\system32\vStrip.dll=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\WINDOWS\system32\sensapi.dll=Yes
+C:\WINDOWS\system32\msimg32.dll=Yes
+C:\WINDOWS\system32\SSubTmr6.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\VBPrnDlg.dll=Yes
+C:\WINDOWS\system32\KTLDShw2.tlb=Yes
+C:\WINDOWS\system32\quartz.dll=Yes
+C:\Program Files\Sur Video Catalog\wiaaut.dll=Yes
+C:\WINDOWS\system32\STRM.tlb=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+D:\!VB.SUR\VideoCatalog\Status\svc.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ijl11.dll=$(WinSysPath)
+C:\WINDOWS\system32\MediaInfo.dll=$(WinSysPath)
+C:\WINDOWS\system32\vStrip.dll=$(AppPath)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\WINDOWS\system32\sensapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\msimg32.dll=$(WinSysPath)
+C:\WINDOWS\system32\SSubTmr6.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\VBPrnDlg.dll=$(WinSysPath)
+C:\WINDOWS\system32\KTLDShw2.tlb=$(WinSysPath)
+C:\WINDOWS\system32\quartz.dll=$(WinSysPath)
+C:\Program Files\Sur Video Catalog\wiaaut.dll=$(WinSysPath)
+C:\WINDOWS\system32\STRM.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=svc.CAB
+DepCabRun=svc.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=D:\!VB.SUR\VideoCatalog\Status\!Pakage
+ProjectFolder=D:\!VB.SUR\VideoCatalog\Status
+ServerSideCab=
+File1=D:\!VB.SUR\VideoCatalog\Status\!Pakage\svc.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

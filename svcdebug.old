@@ -1,0 +1,27 @@
+22:24:04> 27.02.2017 SVC ver: 5.4.5
+22:24:04> WinNT = True (Windows XP Professional, ver. 5.1.2600 SP3)
+22:24:04> Separator - (,)
+22:24:04> ACP: 1251
+22:24:04> LCID: 1049
+22:24:04> Open ADB
+22:24:04> Open Acter
+22:24:04> global.ini
+22:24:04> локализация C:\!VBSUR\VideoCatalog\Status\rus.lng
+22:24:04> MenuItem: 1/0
+22:24:04> Заполнение фильмов
+22:24:04> Загрузка C:\SVC.Base\новые фильмы.mdb
+22:24:04> Open DB (RO=False ROU=False)
+22:24:04> Open table
+22:24:04> новые фильмы.mdb.ini
+22:24:05>   FreeDVDFilters=True
+22:24:05>   UseProxy=1
+22:24:05>   DS_AVI=False
+22:24:05>   GetVolumeInfo=True
+22:24:05>   GetMediaType=True
+22:24:05>   InetGetPicUseTempFile=False
+22:24:05> Список фильмов
+22:24:14> MenuItem: 4/0
+22:24:14> Обложка
+22:24:20> MenuItem: 3/0
+22:24:20> Новый фильм
+22:24:20> ClVid_proc...
